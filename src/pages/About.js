@@ -20,7 +20,7 @@ export const About = () => {
           <Three />
         </Suspense>
       )}
-      <button onClick={() => setShowComponents(true)}>Show</button>
+      <button onClick={() => setShowComponents(!showComponents ? true : false )}>Show</button>
     </>
   );
 };
